@@ -1,0 +1,15 @@
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\bin\Debug\net5.0\Project.Application.deps.json
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\bin\Debug\net5.0\Project.Application.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\bin\Debug\net5.0\ref\Project.Application.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\bin\Debug\net5.0\Project.Application.pdb
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.csprojAssemblyReference.cache
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.AssemblyInfoInputs.cache
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.AssemblyInfo.cs
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.csproj.CoreCompileInputs.cache
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\ref\Project.Application.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.pdb
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\bin\Debug\net5.0\Project.Core.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\bin\Debug\net5.0\Project.Core.pdb
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Application\obj\Debug\net5.0\Project.Application.csproj.CopyComplete

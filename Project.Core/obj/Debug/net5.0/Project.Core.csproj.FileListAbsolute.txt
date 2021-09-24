@@ -1,0 +1,15 @@
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\bin\Debug\net5.0\Project.Core.deps.json
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\bin\Debug\net5.0\Project.Core.runtimeconfig.json
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\bin\Debug\net5.0\Project.Core.runtimeconfig.dev.json
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\bin\Debug\net5.0\Project.Core.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\bin\Debug\net5.0\ref\Project.Core.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\bin\Debug\net5.0\Project.Core.pdb
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.csprojAssemblyReference.cache
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.AssemblyInfoInputs.cache
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.AssemblyInfo.cs
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.csproj.CoreCompileInputs.cache
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\ref\Project.Core.dll
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.pdb
+F:\Doccument\CMC\Training\CMC_Assignment\Project.Core\obj\Debug\net5.0\Project.Core.genruntimeconfig.cache
