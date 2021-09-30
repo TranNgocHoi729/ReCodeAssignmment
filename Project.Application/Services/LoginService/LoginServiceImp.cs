@@ -2,9 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Project.Application.Common.Helper.PasswordHandle;
+using Project.Application.Context;
 using Project.Application.Dtos.LoginDtos;
-using Project.Application.Interfaces.LoginInterface;
-using Project.Core.Context;
+using Project.Application.Repositories.LoginRepo;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;

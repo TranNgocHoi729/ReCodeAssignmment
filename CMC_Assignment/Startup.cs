@@ -1,3 +1,4 @@
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,13 +8,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Project.Application.Context;
+using Project.Application.Dtos.AccountDtos;
+using Project.Application.EF.UnitOfWork;
 using Project.Application.Extensions.Exceptions;
-using Project.Application.Interfaces.AccountInterface;
-using Project.Application.Interfaces.LoginInterface;
 using Project.Application.Mapper;
-using Project.Application.Services.AccountService;
+using Project.Application.Repositories.AccountRepo;
+using Project.Application.Repositories.LoginRepo;
+using Project.Application.Services;
 using Project.Application.Services.LoginService;
-using Project.Core.Context;
+using Project.Application.Validators.AccountValidator;
 using System;
 using System.Text;
 
@@ -38,13 +42,15 @@ namespace CMC_Assignment
             // Add Authen
             AddAuthentication(services);
 
+            // Add DI
+            ConfigureDependencyInjection(services);
+
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             // Add Mapper Dto
             services.AddAutoMapper(typeof(MapperProfile).Assembly);
-            // Add DI
-            ConfigureDependencyInjection(services);
-            services.AddTransient<DataContext>();
-            
+            ConfigureValidator(services);
+
+
 
             services.AddSwaggerGen(c =>
             {
@@ -54,8 +60,16 @@ namespace CMC_Assignment
 
         private void ConfigureDependencyInjection(IServiceCollection services)
         {
+            services.AddScoped<DataContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAccountRepository, AccountServiceImp>();
             services.AddScoped<ILogin, LoginServiceImp>();
-            services.AddScoped<IAccountService, AccountServiceImp>();
+        }
+
+        public void ConfigureValidator(IServiceCollection services)
+        {
+            services.AddTransient<IValidator<AccountAddingDto>, AccountAddingValidator>();
+            services.AddTransient<IValidator<AccountUpdatingDto>, AccountUpdatingValidator>();
         }
 
         public void AddAuthentication(IServiceCollection services)
