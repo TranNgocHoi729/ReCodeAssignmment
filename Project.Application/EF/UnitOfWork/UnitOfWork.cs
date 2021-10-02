@@ -7,17 +7,15 @@ namespace Project.Application.EF.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-
         private DataContext _context;
         private IAccountRepository _accountRepository;
         
 
-        public UnitOfWork(DataContext context)
+        public UnitOfWork(DataContext context, IAccountRepository res)
         {
             _context = context;
+            _accountRepository = res;
         }
-
-       
 
         public int Complete()
         {
@@ -33,7 +31,7 @@ namespace Project.Application.EF.UnitOfWork
         {
             if (_accountRepository == null)
             {
-                _accountRepository = new AccountServiceImp(_context);
+            //    _accountRepository = new AccountServiceImp(_context);
             }
             return _accountRepository;
         }

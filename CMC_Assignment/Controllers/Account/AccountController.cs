@@ -15,9 +15,10 @@ namespace CMC_Assignment.Controllers.Account
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public AccountController(IUnitOfWork unitOfWork)
+        public AccountController(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
         [HttpGet]

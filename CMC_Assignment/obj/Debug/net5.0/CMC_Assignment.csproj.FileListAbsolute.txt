@@ -69,3 +69,6 @@ F:\Doccument\CMC\Training\CMC_Assignment\CMC_Assignment\bin\Debug\net5.0\Microso
 F:\Doccument\CMC\Training\CMC_Assignment\CMC_Assignment\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 F:\Doccument\CMC\Training\CMC_Assignment\CMC_Assignment\bin\Debug\net5.0\Newtonsoft.Json.dll
 F:\Doccument\CMC\Training\CMC_Assignment\CMC_Assignment\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+F:\Doccument\CMC\Training\CMC_Assignment\CMC_Assignment\bin\Debug\net5.0\FluentValidation.dll
+F:\Doccument\CMC\Training\CMC_Assignment\CMC_Assignment\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+F:\Doccument\CMC\Training\CMC_Assignment\CMC_Assignment\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
